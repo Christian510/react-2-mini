@@ -61,6 +61,19 @@ class App extends Component {
 
 export default App;
 
+// A note on step 6:  I feel like  I get HTML, I get CSS and I get JavaScript.  But, I fail to know when I am doing CSS and when I am doing some React like.  I screwed around with the style for awhile but could not figure out how to add props.fontColor.  Once I looked at the solution I felt like a dolt.  Of course is just like a CSS object.  But I sill don't underStand props very well.  For one I would not have use this.props.  Because I was told that this refers to the Componenet I am working in.  But, that is not where the property is coming from.
+
+// Step 6
+
+// Now we have everything set up to be able to edit the look of our text. Our last step is to connect our styling in the TextContainer components to the props being passed to it so they will reflect the changes we make.
+
+// Instructions
+// Open TextContainer.js from src/components/.
+// * Bind the updateText method to this in the constructor method.
+// * In the textarea tag there is a style prop, this is where we need to add the styling that's being passed to this component through props.
+// * Uncomment the style prop.
+// * Set fontFamily, fontSize and color equal to the appropriate props values.
+
 // Step 5
 // * Open EditToggle, ColorChanger.js, FamilyChanger.js, and SizeChanger.js from src/components/.
 // * Add props as a parameter to the component's function.
